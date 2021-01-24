@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MARKET DEMAND DATA</title>
+	<link rel="stylesheet" href="inputStyle.css">
+	
+</head>
+<body>
+
+	<h1>Upload Production Data</h1>
+	<form  action="inputBureau.php" method="post" id="register">
+		
+		<div class="Register">
+			
+			<td>Product :</td>
+			<td><select name="Product_Name" required="">
+			<option selected="" hidden="" value="">Select product</option>
+			<option value="Onion">Onion</option>
+			<option value="Potato">Potato</option>
+			<option value="Ginger">Ginger</option>
+			<option value="Garlic">Garlic</option>
+			<option value="Tomato">Tomato</option>
+			<option value="Eggplant">Eggplant</option>
+			</select>
+		</td></tr>
+		<tr><br><br>
+
+			<br>
+			<td>Division :</td>
+			<td><select name="Division" required="">
+			<option selected="" hidden="" value="">Select Division</option>
+			<option value="Dhaka">Dhaka</option>
+			<option value="Chottogram">Chottogram</option>
+			<option value="Barishal">Barishal</option>
+			<option value="Rajshahi">Rajshahi</option>
+			<option value="Shylet">Shylet</option>
+			<option value="Khulna">Khulna</option>
+			<option value="Rangpur">Rangpur</option>
+			<option value="Mymensingh">Mymensingh</option>
+			</select>
+		</td></tr>
+		<tr><br><br><br>
+
+			<td>District :</td>
+			<td><input type="text" name="District" required=""></td>
+		</tr> <br><br><br>
+		<tr><td>Thana :</td>
+			<td><input type="text" name="Thana" required=""></td>
+		</tr> 
+		<tr><br><br><br>
+			<td>Production Quantity :</td>
+			<td><input type="text" name="Quantity" required=""></td>
+			<td>Unit :</td>
+			<td><select name="Unit" required="">
+				<option selected="" hidden="" value="">Unit</option>
+				<option value="Kg">Kg</option>
+				
+				<option value="Matric Ton">Matric Ton</option>
+				
+			</select>
+			</td>
+		</tr> <tr><br>
+			<td>Per unit Cost :</td>
+			<td><input type="text" name="perUniCost" required=""></td>
+			
+			</select>
+		</td>
+		</tr> <br><br><br>
+		<td>Demand Quantity :</td>
+		<td><input type="text" name="DemandQuantity" required=""></td>
+		<td>Unit :</td>
+		<td><select name="DemandUnit" required="">
+			<option selected="" hidden="" value="">Unit</option>
+			<option value="Kg">Kg</option>
+			<option value="Matric Ton">Matric Ton</option>
+			
+		</select>
+		</td>
+		</tr>
+		<br><br>
+
+			<label>Date:</label>
+			<input type="Date"  name="date" /><br>
+
+		<br>
+		<br>
+		<br>
+		<input type="submit" value="submit" name ="submit" id="sub">
+	
+		</div>
+	</form>
+    
+</body>
+</html>

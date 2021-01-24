@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MARKET DEMAND DATA</title>
+	<link rel="stylesheet" href="inputStyle.css">
+	
+</head>
+<body>
+    <h1>Upload Product Per Unit Price</h1>
+    <form  action="inputTCB.php" method="post" id="register">
+    
+        <div class="Register">
+          
+          <td>Product :</td>
+          <td><select name="Product_Name" required="">
+              <option selected="" hidden="" value="">Select product</option>
+              <option value="onion">Onion</option>
+              <option value="Potato">Potato</option>
+              <option value="Ginger">Ginger</option>
+              <option value="Garlic">Garlic</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Eggplant">Eggplant</option>
+            </select>
+          </td></tr>
+          <tr><br><br>
+
+            <td>WHOLESELL / RETAIL :</td>
+            <td><select name="price" required="">
+              <option selected="" hidden="" value="">Select</option>
+              <option value="wholesellPrice">WHOLESELL</option>
+              <option value="retailPrice">RETAIL</option>
+              
+            </select>
+          </td></tr>
+          <tr><br>
+            <tr>
+              <td>Type :</td>
+              <td><input type="text" name="type" ></td>
+            </tr> <br>
+            <br>
+            
+          </td>
+        </tr> <br><br>
+
+            <label>Date:</label>
+            <input type="Date"  name="date" /><br><br>
+
+          <tr>
+            <td>Dhaka :</td>
+            <td><input type="text" name="Dhaka" required=""></td>
+          </tr> <br><br>
+          <tr><td>Chottogram :</td>
+            <td><input type="text" name="Chottogram" required=""></td>
+          </tr> <br><br>
+          <tr><td>Barishal :</td>
+            <td><input type="text" name="Barishal" required=""></td>
+          </tr> <br><br>
+          <tr><td>Rajshahi :</td>
+            <td><input type="text" name="Rajshahi" required=""></td>
+          </tr> <br><br>
+          <tr><td>Shylet :</td>
+            <td><input type="text" name="Shylet" required=""></td>
+          </tr> <br><br>
+          <tr><td>Khulna :</td>
+            <td><input type="text" name="Khulna" required=""></td>
+          </tr> <br><br>
+          <tr><td>Rangpur :</td>
+            <td><input type="text" name="Rangpur" required=""></td>
+          </tr> <br><br>
+          <tr><td>Mymensingh :</td>
+            <td><input type="text" name="Mymensingh" required=""></td>
+          </tr> <br><br>
+          
+        <br>
+        <input type="submit" value="submit" name ="submit" id="sub">
+
+        </div>
+
+    </form>
+
+
+    
+</body>
+</html>
